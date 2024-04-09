@@ -1,0 +1,32 @@
+/* este seria un seleccion donde especifico la etiquea h1*/
+h1{
+color: blue;
+text-align: center;
+}
+
+/* este seria una herencia1*/
+body{
+    color: blue;
+}
+
+span{
+color: black;
+
+}
+/* este seria cascada*/
+h1{
+    color: black;
+}
+
+h1{
+    color: brown;
+}
+/* este seria especificidad donde la clase tiene el valor mayor que la etiqueta*/
+
+.login{
+    color: blue;
+}
+
+button{
+    color: aqua;
+}
